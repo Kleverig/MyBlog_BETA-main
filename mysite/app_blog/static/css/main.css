@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@media (max-width: 480px) {
+ h1 {
+ font-size: 18px;
+ }
+}
+body {
+ background-image: url('');
+ background-color: #add8e6;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+div > h1 {
+ color: #000000;
+ font-family: 'Ubuntu', sans-serif;
+ margin-top: 20px;
+}
+body > div > nav > div > a > h4 {
+ color: #000000;
+ font-family: 'Ubuntu', sans-serif;
+}
+.article-block {
+ background: #7ca9b8;
+ color: #000000;
+ font-family: 'Ubuntu', sans-serif;
+ box-shadow: 4px 4px 3px #82cad6;
+ padding: 10px;
+ margin: 10px;
+}
+.article-block a {
+ color: #383838;
+ font-family: 'Ubuntu', sans-serif;
+}
+body > div > div > ol > li {
+ margin: 0 5px;
+}
+div.container-image > img {
+ width: 100%;
+}
+p {
+    margin: 0;
+    text-indent: 3ch;
+  }
+  .photo-row {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    margin: 0 auto; 
+    padding: 20px 0;
+}
+.photo-row img {
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+    box-shadow: 4px 4px 3px #585858;
+}
+.logo {
+  width: 100px; /* Змініть розмір відповідно до ваших потреб */
+  border: 1px solid #ccc; /* Приклад обрамлення */
+}
